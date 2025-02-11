@@ -636,3 +636,40 @@ div[role="progressbar"] {
 .experience-list {
     padding: 20px; /* Padding for the list */
 }
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Adjust spacing as needed */
+    justify-content: center; /* Centers the content */
+}
+
+.experience-list {
+    width: 250px; /* Limit max width */
+    height: 250px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 300px;
+}
+.project-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #f2ededf0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
