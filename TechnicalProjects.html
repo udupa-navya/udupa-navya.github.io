@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        h2.heading-text {
+            font-size: 28px;  /* Larger heading */
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #e3e3e3;
+            line-height: 1.8; /* More space between lines */
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px; /* Increased spacing between sections */
+        }
+
+        .presentation-box {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .skills-list span {
+            background: #ffbf35;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .doc-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            width: 160px;
+            transition: 0.3s;
+        }
+
+        .doc-card img {
+            width: 45px;
+            height: 45px;
+            margin-bottom: 12px;
+        }
+
+        .doc-card:hover {
+            background: #e0e0e0;
+        }
+
+        .wireframe-gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .wireframe-gallery img {
+            width: 48%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .full-width-img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="main-panel">
+    <div class="container">
+        <div class="width-33 logo">
+            Port <span class="span-col">folio</span>
+        </div>
+        <div class="width-66">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Aboutme.html">About Me</a>
+                <a href="Projects.html"><span class="span-col">Projects</span></a>
+                <a href="Education.html">Education</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="title">Grocery List App</h1>
+
+        <div class="main-section bg-lightgrey">
+            <div class="about-box">
+                <div class="about-container">
+
+                    <!-- Case Study Card -->
+                    <div class="card">
+                        <h2 class="heading-text">💻 Technical Projects</h2>
+
+                        <!-- Project 1: Desktop Robot -->
+                        <div class="section">
+                            <h3>🤖 Desktop Robot</h3>
+                            <p>A cost-effective desktop robot that navigates obstacles and avoids edges using ROS, Arduino, and AI-based vision.</p>
+                            <div class="skills-list">
+                                <span>ROS</span>
+                                <span>Arduino</span>
+                                <span>YOLO Algorithm</span>
+                                <span>USB Camera</span>
+                                <span>IR Sensor</span>
+                                <span>Ultrasonic Sensor</span>
+                            </div>
+                            <p><a href="https://github.com/YOUR_GITHUB/desktop-robot" target="_blank">🔗 GitHub Repo</a></p>
+                        </div>
+
+                        <!-- Project 2: Courier Management System -->
+                        <div class="section">
+                            <h3>📦 Courier Management System</h3>
+                            <p>Automates package tracking, delivery management, and user accounts for a streamlined courier service.</p>
+                            <div class="skills-list">
+                                <span>PostgreSQL</span>
+                                <span>Database Management</span>
+                                <span>Backend Development</span>
+                            </div>
+                            <p><a href="https://github.com/udupa-navya/dbms_projectcouriermanagement" target="_blank">🔗 GitHub Repo</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
