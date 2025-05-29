@@ -671,5 +671,21 @@ ul li {
     margin: 10px 0;
     font-size: 18px;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px;
+    }
 
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .edu-exp {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
 
