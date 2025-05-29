@@ -43,6 +43,20 @@
   a:hover {
     text-decoration: underline;
   }
+  .download-btn {
+    display: inline-block;
+    background-color: #ffbf35;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .download-btn:hover {
+    background-color: #ffbf35;
+  }
 </style>
 <body>
 <!-- Main Panel -->
@@ -58,7 +72,7 @@
         <a href="index.html">Home</a>
         <a href="Aboutme.html"><span class="span-col">About Me</span></a>
         <a href="Projects.html">Projects</a>
-        <a href="Education.html">Education</a>
+        <a href="Education.html">Education/Experiences</a>
         <a href="Contact.html">Contact</a>
       </nav>
     </div>
@@ -73,15 +87,17 @@
           <div class="about-us card">
             <h2 class="heading-text">About Me</h2>
             <p>
-              Hi! I’m Navya Narasimha, a software developer passionate about product management.
-              I enjoy transforming innovative ideas into impactful products with a focus on user-centered design.
-              Currently, I am enhancing my product management skills to bridge the gap between development and user experience.
-              My goal is to lead projects that deliver exceptional user experiences.
-              Outside of work, I love exploring technology trends, reading books and blogging, which inspire my creativity.
-              Let’s connect on
+              Hi! I’m Navya Narasimha, a Master’s student in Information Systems at the University of Maryland with a background in software development, product management and data strategy. I previously worked full-time as a Software Developer and volunteered as a Product Manager at TripJoiner, where I helped shape user-focused features.
+              I’m passionate about building intuitive, data-driven products that connect tech and business. Outside of work, I enjoy exploring tech trends, reading, and blogging. Let's connect on
               <a href="https://www.linkedin.com/in/navya-udupa" target="_blank">LinkedIn</a>
               or check out my projects on the projects page!
             </p>
+          </div>
+          <!-- Download Resume Button -->
+          <div style="text-align: center; margin-top: 20px;">
+            <a href="PDFS/Navya_Narasimha_Resume (7).pdf" download class="download-btn">
+              <i class="fas fa-download"></i> Download My Resume
+            </a>
           </div>
         </div>
       </div>
@@ -131,6 +147,15 @@
               <i class="fas fa-chart-line"></i>
               <b>Market Analysis</b>
             </div>
+            <div class="skill-card card">
+              <i class="fas fa-chart-bar"></i>
+              <b>Power Bi</b>
+            </div>
+            <div class="skill-card card">
+              <i class="fas fa-route"></i>
+              <b>Customer Journey</b>
+            </div>
+
           </div>
         </div>
       </div>
